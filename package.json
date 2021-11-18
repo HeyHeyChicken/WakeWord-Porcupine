@@ -1,0 +1,16 @@
+{
+  "name": "nova-wakeword-porcupine",
+  "version": "1.0.0",
+  "description": "This skill will allow your assistant to detect wakewords with porcupine.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyHeyChicken/NOVA-WakeWord-Porcupine.git"
+  },
+  "author": "Antoine Duval",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/HeyHeyChicken/NOVA-WakeWord-Porcupine/issues"
+  },
+  "homepage": "https://github.com/HeyHeyChicken/NOVA-WakeWord-Porcupine#readme"
+}
