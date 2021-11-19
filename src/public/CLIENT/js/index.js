@@ -57,7 +57,6 @@ async function startPorcupine() {
             let webVp = await window.WebVoiceProcessor.WebVoiceProcessor.init({
                 engines: [/* ppnEn, ppnEs, */ ppnFr /* , ppnDe */],
             });
-            console.log("WebVoiceProcessor ready and listening!");
         } catch (e) {
             console.log("WebVoiceProcessor failed to initialize: " + e);
         }
