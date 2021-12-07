@@ -1,6 +1,6 @@
 <div align="center">
 <a href="//nova-assistant.com" rel="nofollow">
-<img src="https://github.com/HeyHeyChicken/NOVA-WakeWord-Porcupine/blob/master/resources/nova-logo.svg" alt="NOVA" width="300">
+<img src="https://github.com/HeyHeyChicken/NOVA/blob/master/resources/github-logo.svg" alt="NOVA" width="300">
 </a>
 
 **NOVA - WakeWord Porcupine** is a skill for your [NOVA](//github.com/HeyHeyChicken/NOVA) assistant.<br>
