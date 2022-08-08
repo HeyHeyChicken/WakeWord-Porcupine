@@ -10,7 +10,9 @@ class WakeWordPorcupine extends LIBRARIES.Skill {
     // get_porcupine_key
 
     _main.ClientIO.on("connection", function(socket){
-      socket.on("get_porcupine_key", function(_ID){
+      const EVENT_NAME = "get_porcupine_key";
+      socket.removeAllListeners(EVENT_NAME);
+      socket.on(EVENT_NAME, function(_ID){
         _main.ClientIO.emit("set_porcupine_key", SELF.Settings.Key);
       });
     });
