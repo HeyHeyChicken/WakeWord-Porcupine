@@ -52,9 +52,12 @@ async function startPorcupine(accessKey) {
     }
 }
 
+let porcupine_key = null;
 
 MAIN.Socket.on("set_porcupine_key", function(key) {
   if(key != null){
+    console.log(porcupine_key);
+    porcupine_key = key;
     startPorcupine(key);
   }
   else{
