@@ -55,6 +55,7 @@ async function startPorcupine(accessKey) {
 
 MAIN.Socket.on("set_porcupine_key", function(key) {
   if(key != null){
+    console.log("set_porcupine_key");
     startPorcupine(key);
   }
   else{
