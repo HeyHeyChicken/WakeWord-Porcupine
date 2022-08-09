@@ -13,6 +13,7 @@ class Client {
 
     // Sockets from server
     this.Main.IOClient.on("set_porcupine_key", function(_key){
+      console.log("set_porcupine_key");
       SELF.Main.IOServer.sockets.emit("set_porcupine_key", _key);
     });
   }
