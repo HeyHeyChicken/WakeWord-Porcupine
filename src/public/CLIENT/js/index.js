@@ -56,9 +56,10 @@ let porcupine_key = null;
 
 MAIN.Socket.on("set_porcupine_key", function(key) {
   if(key != null){
-    console.log(porcupine_key);
-    porcupine_key = key;
-    startPorcupine(key);
+    if(porcupine_key == null){
+      porcupine_key = key;
+      startPorcupine(key);
+    }
   }
   else{
     console.error("You have not set a key in the \"WakeWord-Porcupine\" skill settings. You can generate a key here: https://console.picovoice.ai/profile");
