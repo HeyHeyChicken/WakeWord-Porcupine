@@ -18,7 +18,7 @@ This skill will allow your assistant to detect wake words with porcupine.
 ## Features
 
 This skill will allow your assistant to detect wake words with porcupine.
-- FR : Framboise
+- FR : Ok Nova
 
 ## Support and contribution
 
