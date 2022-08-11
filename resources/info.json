@@ -1,14 +1,9 @@
 {
-	"id" : null,
-	"name" : null,
-	"author" : null,
-  "lastUpdated": null,
-  "size": null,
-	"description" : {
-		"fr_FR": "Plugin permettant d'afficher des notifications sur LaMetric Time sans avoir à créer une application."
-	},
 	"worksOffline" : true,
+	"description" : {
+		"fr-FR": "Plugin permettant d'afficher des notifications sur LaMetric Time sans avoir à créer une application."
+	},
 	"language": [
-		"fr_FR"
+		"fr-FR"
 	]
 }
