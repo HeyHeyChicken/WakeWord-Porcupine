@@ -1,7 +1,8 @@
 {
 	"worksOffline" : true,
 	"description" : {
-		"fr-FR": "Plugin permettant d'afficher des notifications sur LaMetric Time sans avoir à créer une application."
+		"fr-FR": "Cette compétence permettra à votre assistant de détecter le mot d'activation avec \"Porcupine\".<br/>Le mot d'activation est \"Ok Nova\".<br/>Vous devrez saisir votre clé Porcupine dans les paramètres de compétence (vous pouvez en créer une ici : https://console.picovoice.ai/profile).",
+		"en-US": "This skill will allow your assistant to detect the wake word with \"Porcupine\".<br/>The wake word is \"Ok Nova\".<br/>You will need to enter your Porcupine key in the settings skill (you can create one here: https://console.picovoice.ai/profile)."
 	},
 	"language": [
 		"fr-FR"
