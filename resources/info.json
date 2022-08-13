@@ -5,6 +5,7 @@
 		"en-US": "This skill will allow your assistant to detect the wake word with the <a target=\"_blank\" href=\"https://picovoice.ai/platform/porcupine/\">Porcupine</a> library.<br/><br/>The wake word is \"Ok Nova\".<br/><br/>You will need to enter your Porcupine key in the skill settings (you can create one <a target=\"_blank\" href=\"https://console.picovoice.ai/profile\">ici</a>)."
 	},
 	"language": [
-		"fr-FR"
+		"fr-FR",
+		"en-US"
 	]
 }
