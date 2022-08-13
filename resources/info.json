@@ -2,7 +2,7 @@
 	"worksOffline" : true,
 	"description" : {
 		"fr-FR": "Cette compétence permettra à votre assistant de détecter le mot d'activation avec la librairie <a target=\"_blank\" href=\"https://picovoice.ai/platform/porcupine/\">Porcupine</a>.<br/><br/>Le mot d'activation est \"Ok Nova\".<br/><br/>Vous devrez saisir votre clé Porcupine dans les paramètres de compétence (vous pouvez en créer une <a target=\"_blank\" href=\"https://console.picovoice.ai/profile\">ici</a>).",
-		"en-US": "This skill will allow your assistant to detect the wake word with the <a target=\"_blank\" href=\"https://picovoice.ai/platform/porcupine/\">Porcupine</a> library.<br/><br/>The wake word is \"Ok Nova\".<br/><br/>You will need to enter your Porcupine key in the skill settings (you can create one <a target=\"_blank\" href=\"https://console.picovoice.ai/profile\">ici</a>)."
+		"en-US": "This skill will allow your assistant to detect the wake word with the <a target=\"_blank\" href=\"https://picovoice.ai/platform/porcupine/\">Porcupine</a> library.<br/><br/>The wake word is \"Ok Nova\".<br/><br/>You will need to enter your Porcupine key in the skill settings (you can create one <a target=\"_blank\" href=\"https://console.picovoice.ai/profile\">here</a>)."
 	},
 	"language": [
 		"fr-FR",
