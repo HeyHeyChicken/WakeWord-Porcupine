@@ -1,6 +1,7 @@
 {
   "FolderName":"WakeWord - Porcupine",
   "Settings": {
-    "Key": null
+    "Key": null,
+    "Sensitivity": 0.6
   }
 }

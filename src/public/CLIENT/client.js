@@ -6,14 +6,14 @@ class Client {
 
     // Sockets from client
     this.Main.IOServer.on("connection", function(socket){
-      socket.on("get_porcupine_key", function(){
-        SELF.Main.IOClient.emit("get_porcupine_key");
+      socket.on("get_porcupine_settings", function(){
+        SELF.Main.IOClient.emit("get_porcupine_settings");
       });
     });
 
     // Sockets from server
-    this.Main.IOClient.on("set_porcupine_key", function(_key){
-      SELF.Main.IOServer.sockets.emit("set_porcupine_key", _key);
+    this.Main.IOClient.on("set_porcupine_settings", function(_key){
+      SELF.Main.IOServer.sockets.emit("set_porcupine_settings", _key);
     });
   }
 }
